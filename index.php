@@ -7,7 +7,7 @@
 </head>
 
 <div class="title">
-    <h1>Pole Service Bamako</h1>
+    <h1>Pole Service </h1>
 </div>
 
 <body>

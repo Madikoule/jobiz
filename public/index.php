@@ -8,7 +8,7 @@
 
     use App\Controller\PageController;
 
-    $PageController :: new PageController;
-    $PageController->test();
+    $PageController = new PageController();
+    $PageController->home();
 
 ?>

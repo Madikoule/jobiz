@@ -7,8 +7,15 @@
     define('APP_ROOT', dirname(__DIR__));
 
     use App\Controller\PageController;
+    use App\Routing\Router;
 
+    $router = new Router();
+    $router->handleRequest($_SERVER["REQUEST_URI"]);
+
+
+    /*
     $PageController = new PageController();
     $PageController->home();
+    */
 
 ?>
